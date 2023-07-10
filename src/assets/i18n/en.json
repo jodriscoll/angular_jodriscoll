@@ -119,9 +119,9 @@
             "Title": "Rehab.com",
             "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
             "imgs": [
-                "assets/profile-visuals/rehab.com.png",
-                "assets/profile-visuals/rehab.com.png",
-                "assets/profile-visuals/rehab.com.png"
+                "assets/portfolio-visuals/rehab.com.png",
+                "assets/portfolio-visuals/rehab.com.png",
+                "assets/portfolio-visuals/rehab.com.png"
             ],
             "demoLink": "https://www.rehab.com",
             "Technologies": [
@@ -137,9 +137,9 @@
             "Title": "Sequoia Capital",
             "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
             "imgs": [
-                "assets/profile-visuals/sequoiacap.png",
-                "assets/profile-visuals/sequoiacap.png",
-                "assets/profile-visuals/sequoiacap.png"
+                "assets/portfolio-visuals/sequioacap.png",
+                "assets/portfolio-visuals/sequioacap.png",
+                "assets/portfolio-visuals/sequioacap.png"
             ],
             "demoLink": "https://www.sequoiacap.com",
             "Technologies": [
@@ -156,9 +156,9 @@
             "Title": "SageLife",
             "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
             "imgs": [
-                "assets/profile-visuals/sagelife.png",
-                "assets/profile-visuals/sagelife.png",
-                "assets/profile-visuals/sagelife.png"
+                "assets/portfolio-visuals/sagelife.png",
+                "assets/portfolio-visuals/sagelife.png",
+                "assets/portfolio-visuals/sagelife.png"
             ],
             "demoLink": "https://www.sagelife.com",
             "Technologies": [
@@ -174,9 +174,9 @@
             "Title": "TAK.gov",
             "Description": "TAK is the core of a suite of geo-referenced imagery and communications tools that allow for <span class='underline'>scaled operational planning, data sharing, visualized elevation data, and target management</span>. With TAK, your team can get oriented quickly, make <span class='underline'>better informed decisions</span> and quickly respond to threats. Add TAK to your operations, and make sure when your team deploys, you have the unfair advantage.",
             "imgs": [
-                "assets/profile-visuals/tak-gov-home.png",
-                "assets/profile-visuals/tak-gov-products.png",
-                "assets/profile-visuals/tak-gov-solutions.png"
+                "assets/portfolio-visuals/tak-gov-home.png",
+                "assets/portfolio-visuals/tak-gov-products.png",
+                "assets/portfolio-visuals/tak-gov-solutions.png"
             ],
             "demoLink": "https://tak.gov",
             "Technologies": [
@@ -191,9 +191,9 @@
             "Title": "i6tix",
             "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
             "imgs": [
-                "assets/profile-visuals/i6tix.png",
-                "assets/profile-visuals/i6tix.png",
-                "assets/profile-visuals/i6tix.png"
+                "assets/portfolio-visuals/i6tix.png",
+                "assets/portfolio-visuals/i6tix.png",
+                "assets/portfolio-visuals/i6tix.png"
             ],
             "demoLink": "https://d2ywhp6fltyv6h.cloudfront.net/storefront.html",
             "Technologies": [
