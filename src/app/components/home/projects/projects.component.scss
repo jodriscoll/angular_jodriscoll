@@ -12,7 +12,7 @@ $projectBorderRadius: 10px;
         background-color: $solidWhite;
         border-radius: $projectBorderRadius;
         box-shadow: 0 0 $projectBorderRadius 0 rgba($solidBlack, .1);
-        padding: ($projectBorderRadius * 2);
+        padding: calc($projectBorderRadius * 2);
         margin: 50px 0;
 
         .project__info-left {
@@ -208,8 +208,8 @@ $projectBorderRadius: 10px;
 
 .owl-carousel-o {
     background-color: lighten($slate, 35%);
-    border-radius: ($projectBorderRadius / 2);
-    box-shadow: 0 0 ($projectBorderRadius / 2) 0 rgba($solidBlack, .15);
+    border-radius: calc($projectBorderRadius / 2);
+    box-shadow: 0 0 calc($projectBorderRadius / 2) 0 rgba($solidBlack, .15);
     overflow: hidden;
     width: 50%;
 }
