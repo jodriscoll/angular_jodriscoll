@@ -7,8 +7,8 @@
 
     .navbar-brand {
         span {
-            font-size: 14px;
-            font-weight: $font-weight-bold;
+            font-size: 13px;
+            font-weight: $font-weight-medium;
         }
     }
 
@@ -39,7 +39,7 @@
         transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
         visibility: visible;
         width: 100%;
-        z-index: 10;
+        z-index: $z-low + 1;
 
         li {
             a {
@@ -177,7 +177,7 @@
         right: 0;
         top: 0;
         width: 36px;
-        z-index: 11;
+        z-index: $z-low + 2;
 
         .hamburger-menu,
         .hamburger-menu:after,
@@ -187,7 +187,7 @@
         }
 
         .hamburger-menu {
-            background: $green;
+            background: $blue;
             position: relative;
             transform: translateY(25px);
             transition: all 0ms 300ms;
@@ -198,7 +198,7 @@
                 position: absolute;
                 left: 0;
                 bottom: 8px;
-                background: $green;
+                background: $blue;
             }
 
             &::before {
@@ -237,7 +237,7 @@
         top: 0;
         transition: all .25s cubic-bezier(.645, .045, .355, 1) 0s;
         width: 100%;
-        z-index: 9;
+        z-index: $z-low;
     }
 
     // Inherited on scroll.

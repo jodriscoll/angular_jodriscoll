@@ -5,16 +5,16 @@
     "Header.item4": "Contact",
     "Header.resumeBtn": "Resume",
     "Header.resumeFileName": "2023_JODRISCOLL_RESUME.pdf",
-    "Banner.Pretitle": "Let me introduce myself, my name is ...",
+    "Banner.Pretitle": "Let me introduce myself ...",
     "Banner.FullName": "Joseph O'Driscoll",
     "Banner.JobTitle": "A MEAN Front-End Developer",
-    "Banner.Description": "With over <span class='underline'>15 years of web development expertise</span>, I've adeptly employed open-source technologies to construct dynamic web applications, cutting-edge mobile experiences, and immersive digital encounters. My diligent efforts have consistently facilitated business expansion and enhanced user experiences",
+    "Banner.Description": "With over <span class='underline'>10+ years of web development and design expertise</span>, I've adeptly employed open-source technologies to construct dynamic web applications, cutting-edge mobile experiences, and immersive digital encounters. My diligent efforts have consistently facilitated business expansion and enhanced user experiences",
     "Banner.ActionBtn": "Let's Connect",
     "AboutMe.Title": "A little bit of background",
     "AboutMe.Paragraphs": [
         "Throughout my extensive <span class='underline'>10+ years of experience</span> as a Front-End Developer, I've consistently demonstrated a strong commitment to continuous improvement and professional growth.",
         "In addition to my technical expertise, I've successfully led teams, fostering a culture of <span class='underline'>empathy</span>, <span class='underline'>motivation</span>, and <span class='underline'>collaboration</span>.",
-        "I've continually expanded my proficiency across a broad range of technologies, including, but not limited to,:"
+        "I've continually expanded my proficiency across a broad range of technologies, including:"
     ],
     "AboutMe.Skills": [
         "Angular, ReactJS, VueJS",
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "Tab": "Mindgrub Technologies",
+            "Tab": "Mindgrub",
             "Title": "Senior Software Engineer",
             "Date": "August 2017 - January 2022",
             "Description": [
@@ -73,7 +73,7 @@
             ]
         },
         {
-            "Tab": "Jellyfish Online Marketing",
+            "Tab": "Jellyfish",
             "Title": "Senior Front-End Engineer",
             "Date": "July 2015 - August 2017",
             "Description": [
@@ -112,15 +112,13 @@
             ]
         }
     ],
-    "FeatureProjects.Title": "Work Examples",
+    "FeatureProjects.Title": "Recent Projects",
     "FeatureProjects.Label": "Featured Project",
     "FeatureProjects.Projects": [
         {
             "Title": "Rehab.com",
             "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
-            "imgs": [
-                "assets/portfolio-visuals/rehab.com.png",
-                "assets/portfolio-visuals/rehab.com.png",
+            "Images": [
                 "assets/portfolio-visuals/rehab.com.png"
             ],
             "demoLink": "https://www.rehab.com",
@@ -136,9 +134,7 @@
         {
             "Title": "Sequoia Capital",
             "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
-            "imgs": [
-                "assets/portfolio-visuals/sequioacap.png",
-                "assets/portfolio-visuals/sequioacap.png",
+            "Images": [
                 "assets/portfolio-visuals/sequioacap.png"
             ],
             "demoLink": "https://www.sequoiacap.com",
@@ -155,7 +151,7 @@
         {
             "Title": "SageLife",
             "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
-            "imgs": [
+            "Images": [
                 "assets/portfolio-visuals/sagelife.png",
                 "assets/portfolio-visuals/sagelife.png",
                 "assets/portfolio-visuals/sagelife.png"
@@ -173,14 +169,14 @@
         {
             "Title": "TAK.gov",
             "Description": "TAK is the core of a suite of geo-referenced imagery and communications tools that allow for <span class='underline'>scaled operational planning, data sharing, visualized elevation data, and target management</span>. With TAK, your team can get oriented quickly, make <span class='underline'>better informed decisions</span> and quickly respond to threats. Add TAK to your operations, and make sure when your team deploys, you have the unfair advantage.",
-            "imgs": [
+            "Images": [
                 "assets/portfolio-visuals/tak-gov-home.png",
                 "assets/portfolio-visuals/tak-gov-products.png",
                 "assets/portfolio-visuals/tak-gov-solutions.png"
             ],
             "demoLink": "https://tak.gov",
             "Technologies": [
-                "Laravel",
+                "Ruby",
                 "AWS",
                 "GitLab",
                 "Bootstrap 5.x",
@@ -190,9 +186,7 @@
         {
             "Title": "i6tix",
             "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
-            "imgs": [
-                "assets/portfolio-visuals/i6tix.png",
-                "assets/portfolio-visuals/i6tix.png",
+            "Images": [
                 "assets/portfolio-visuals/i6tix.png"
             ],
             "demoLink": "https://d2ywhp6fltyv6h.cloudfront.net/storefront.html",
@@ -208,8 +202,9 @@
     "OtherProjects.Projects": [
         {
             "Title": "Python Slack Cleaner",
-            "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "ghLink": "https://github.com/jodriscoll/py_slack_cleaner",
+            "demoLink": "",
             "Technologies": [
                 "WordPress",
                 "HTML5 + SCSS + Webpack",
@@ -220,8 +215,9 @@
         },
         {
             "Title": "Rehab.com Patient Portal",
-            "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "ghLink": "https://github.com/jodriscoll/vue_patient_portal",
+            "demoLink": "",
             "Technologies": [
                 "VueJS + Symphony",
                 "HTML5 + SCSS",
@@ -232,8 +228,9 @@
         },
         {
             "Title": "Energy Rate Calculator",
-            "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "ghLink": "https://github.com/jodriscoll/wp_nbu_rate_calculator",
+            "demoLink": "",
             "Technologies": [
                 "PHP/WordPress/ACF",
                 "JavaScript",

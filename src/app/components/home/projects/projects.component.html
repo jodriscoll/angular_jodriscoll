@@ -15,7 +15,7 @@
                 <owl-carousel-o *ngIf='i % 2 == 0'
                                 [options]='customOptions'
                                 class="owl-carousel-o">
-                    <ng-container *ngFor="let img of project.imgs">
+                    <ng-container *ngFor="let img of project.Images">
                         <ng-template carouselSlide>
                             <div #imgContainer
                                  [id]='project.Title + i'
@@ -33,8 +33,8 @@
                      data-aos-duration="1000">
                     <div class="img-feature-project-box">
                         <div class="img-container" style="width:auto;">
-                            <img [src]='project.imgs[0]'
-                                 [alt]='project.imgs[0]'
+                            <img [src]='project.Images[0]'
+                                 [alt]='project.Images[0]'
                                  class="img-feature-project rounded"
                                  width="600px" />
                         </div>
@@ -90,7 +90,7 @@
                 <owl-carousel-o *ngIf="i % 2 != 0"
                                 [options]="customOptions"
                                 class="owl-carousel-o">
-                    <ng-container *ngFor="let img of project.imgs">
+                    <ng-container *ngFor="let img of project.Images">
                         <ng-template carouselSlide>
                             <div [id]="project.Title + i" class="img-container">
                                 <img [src]="img"
@@ -106,8 +106,8 @@
                      data-aos-duration="1000">
                     <div class="img-feature-project-box">
                         <div class="img-container" style='width: auto;'>
-                            <img [src]="project.imgs[0]"
-                                 [alt]="project.imgs[0]"
+                            <img [src]="project.Images[0]"
+                                 [alt]="project.Images[0]"
                                  class="img-feature-project rounded"
                                  width="600px" />
                         </div>

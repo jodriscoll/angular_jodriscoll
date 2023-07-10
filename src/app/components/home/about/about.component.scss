@@ -25,13 +25,12 @@
     }
 
     .about-img-portrait {
-        animation: morph 8s ease-in-out infinite;
-        //background-image: url(/static/media/pfp_webp.f334283….webp);
+        animation: imageWarp 5s ease-in-out infinite;
         background-position: 50%;
         background-repeat: no-repeat;
         background-size: cover;
-        border: 5px solid $globalTertiary;
-        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        border: 2px solid $globalTertiary;
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
         position: relative;
         transition: all 1s ease-in-out;
     }

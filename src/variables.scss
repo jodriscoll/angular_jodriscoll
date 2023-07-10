@@ -1,52 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
 
 // Colors
-$green:               #21486b;
-$greenOpacity:        rgba($green, .07);
-$purple:              #4a00d7;
-
-$navy:                #0a192f;
-$lightNavy:           #112240;
-$lightestNavy:        #303c55;
-
-$darkSlate:           #397cce;
-$slate:               #8892b0;
-$lightSlate:          #a8b2d1;
-$lightestSlate:       #ccd6f6;
-
-$solidWhite:          #fff;
-$offWhite:            #e6f1ff;
-$solidBlack:          #000;
-
-$green:               #21486b;
-$greenOpacity:        rgba($green, .07);
-$purple:              #4a00d7;
-
-$lightGrey:           #999d9e;
-$darkGrey:            #1c1d20;
-$darkestGrey:         #141517;
+$blue:                  #21486b;
+$blueOpacity:           rgba($blue, .07);
+$purple:                #4a00d7;
+$navy:                  #0a192f;
+$lightNavy:             #112240;
+$lightestNavy:          #303c55;
+$darkSlate:             #397cce;
+$slate:                 #8892b0;
+$lightSlate:            #a8b2d1;
+$lightestSlate:         #ccd6f6;
+$solidWhite:            #fff;
+$offWhite:              #e6f1ff;
+$solidBlack:            #000;
+$lightGrey:             #999d9e;
+$darkGrey:              #1c1d20;
+$darkestGrey:           #141517;
 
 // Global shared colors
-$globalBackground:    $offWhite;
-$globalHeader:        $offWhite;
-$globalFooter:        $offWhite;
-$globalPrimary:       $navy;
-$globalSecondary:     $lightestNavy;
-$globalTertiary:      $purple;
+$globalBackground:      $offWhite;
+$globalHeader:          $offWhite;
+$globalFooter:          $offWhite;
+$globalPrimary:         $navy;
+$globalSecondary:       $lightestNavy;
+$globalTertiary:        $purple;
 
 // Fonts
-$calibre:             'Calibre', Helvetica Neue, Segoe UI, Arial, sans-serif;
-$sfMono:              'SF Mono', Monaco, Monospace;
+$calibre:               'Calibre', Helvetica Neue, Segoe UI, Arial, sans-serif;
+$sfMono:                'SF Mono', Monaco, Monospace;
+$poppins:               'Poppins', Helvetica Neue, Arial, sans-serif;
+$pitchSans:             'PitchSans', Monaco, Monospace;
+$primaryFont:           $calibre;
+$secondaryFont:         $poppins;
+$fixedWidthFont:        $sfMono;
+$font-weight-light:     300;
+$font-weight-normal:    400;
+$font-weight-medium:    500;
+$font-weight-demi:      600;
+$font-weight-bold:      700;
 
-// Typography
-$primaryFont:         $calibre;
-$secondaryFont:       $calibre;
-$fixedWidthFont:      $sfMono;
+// Shared spacing
+$sectionBox:            130px;
 
 // General use variables
-$base64-spacer:       'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
-$font-weight-light:   300;
-$font-weight-normal:  400;
-$font-weight-medium:  500;
-$font-weight-demi:    600;
-$font-weight-bold:    700;
+$base64-spacer:         'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+$z-highest:             9999;
+$z-high:                999;
+$z-medium:              99;
+$z-low:                 9;
+$z-base:                1;

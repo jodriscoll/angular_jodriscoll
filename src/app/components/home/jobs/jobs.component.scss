@@ -1,15 +1,10 @@
 @import "./../../../../variables.scss";
 
-::ng-deep .jobs {
+.jobs {
     align-items: center;
     display: flex;
     justify-content: center;
-    height: 100vh;
     margin: auto;
-
-    .container {
-        height: 50vh;
-    }
 
     .jobs-tabs {
         display: flex;
@@ -35,14 +30,15 @@
             color: $slate;
             cursor: pointer;
             display: flex;
-            font-size: 13px;
+            font-size: 16px;
             height: 42px;
-            padding: 0 20px 2px;
+            line-height: 1;
+            padding: 4px 20px 0;
             position: relative;
             text-align: left;
             text-decoration: none;
             text-decoration-skip-ink: auto;
-            transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+            transition: all .25s cubic-bezier(.645, .045, .355, 1);
             white-space: nowrap;
             width: 100%;
 
@@ -64,15 +60,15 @@
 
     .job-time {
         font-family: $fixedWidthFont;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: normal;
-        letter-spacing: 0.05em;
-        color: $lightSlate;
+        color: $globalSecondary;
         margin-bottom: 30px;
     }
 
     .job-description {
-        font-size: 14px;
+        font-size: 16px;
+        font-weight: $font-weight-light;
         margin-bottom: 10px;
         padding-left: 30px;
         position: relative;
@@ -84,45 +80,56 @@
             position: absolute;
         }
     }
-}
 
-.jobs {
     .title-tab-content {
-        color: $lightestSlate;
+        color: $purple;
         font-size: 22px;
         font-weight: $font-weight-medium;
         margin-bottom: 5px;
 
         .company-tab-content {
-            color: $lightestNavy;
+            color: $slate;
+            font-size: 16px;
+            font-weight: $font-weight-light;
+            line-height: 22px;
         }
     }
 }
 
 @media (max-width: 768px) {
     .jobs {
+        .jobs-tabs {
+            display: block;
+
+            .tab-content {
+                margin-left: 0;
+            }
+
+            ul {
+                display: block;
+                width: 100%;
+                margin-bottom: 50px;
+            }
+        }
+
         .job-description {
             padding: 0;
         }
     }
-
-    .jobs-tabs {
-        display: block;
-
-        .tab-content {
-            margin-left: 0;
-        }
-
-        ul {
-            display: block;
-            width: 100%;
-            margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+    .jobs {
+        .section-box {
+            min-height: 720px;
         }
     }
 }
-
 @media (min-width: 960px) {
     .jobs {
-        min-height: 1300px;
+        .jobs-tabs {
+            ul {
+                min-width: 200px;
+            }
+        }
     }
 }
