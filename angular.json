@@ -148,7 +148,6 @@
             }
         }
     },
-    "defaultProject": "angular-portfolio",
     "schematics": {
         "@schematics/angular:component": {
             "styleext": "scss"
