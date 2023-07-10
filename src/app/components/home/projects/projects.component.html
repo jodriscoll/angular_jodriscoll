@@ -1,0 +1,119 @@
+<section class="projects section">
+    <div class="container" id="projects">
+        <div class="section-box">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="section-title">
+                    <span class="n-section-title">03.</span> {{ "FeatureProjects.Title" | translate }}
+                </h3>
+            </div>
+            <div *ngFor='let project of "FeatureProjects.Projects" | translate; let i = index'
+                 class="d-flex project__container"
+                 data-aos="fade-up"
+                 data-aos-duration="1000">
+
+                <!-- Right to left -->
+                <owl-carousel-o *ngIf='i % 2 == 0'
+                                [options]='customOptions'
+                                class="owl-carousel-o">
+                    <ng-container *ngFor="let img of project.imgs">
+                        <ng-template carouselSlide>
+                            <div #imgContainer
+                                 [id]='project.Title + i'
+                                 class="img-container">
+                                <img class="img-feature-project rounded"
+                                     [src]='img'
+                                     [alt]='project.Title' />
+                            </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+                <div *ngIf='i % 2 == 0'
+                     class="img-feature-project-container"
+                     data-aos="fade-up"
+                     data-aos-duration="1000">
+                    <div class="img-feature-project-box">
+                        <div class="img-container" style="width:auto;">
+                            <img [src]='project.imgs[0]'
+                                 [alt]='project.imgs[0]'
+                                 class="img-feature-project rounded"
+                                 width="600px" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left to right -->
+                <div [class.project__info-right]='i % 2 == 0'
+                     [class.project__info-left]='i % 2 != 0'
+                     class="h-100">
+                    <div [class.pl-5]='i % 2 == 0'
+                         [class.pr-5]='i % 2 != 0'
+                         class="project__box">
+                        <h4 [class.text-right]='i % 2 == 0'
+                            [class.text-left]='i % 2 != 0'
+                            class="feature-project">
+                            {{ "FeatureProjects.Label" | translate }}
+                        </h4>
+                        <h5 [class.text-right]='i % 2 == 0'
+                            [class.text-left]='i % 2 != 0'
+                            class="project__name">
+                            {{ project.Title }}
+                        </h5>
+                        <div class="project__description">
+                            <p [innerHTML]='project.Description'></p>
+                        </div>
+                        <ul [class.justify-content-end]='i % 2 == 0'
+                            [class.justify-content-start]='i % 2 != 0'
+                            class="project__skills">
+                            <li *ngFor="let technology of project.Technologies; let li = index"
+                                [class.ml-3]="li > 0">
+                              <span class="underline technology">{{ technology }}</span>
+                            </li>
+                        </ul>
+                        <div [class.text-right]='i % 2 == 0'
+                             [class.text-left]='i % 2 != 0'
+                             class="project__links">
+                            <a *ngIf='project["ghLink"]'
+                               [href]='project["ghLink"]'
+                               title=""
+                               target="_blank">
+                                <i class="ml-3 fab fa-github"></i>
+                            </a>
+                            <a *ngIf='project["demoLink"]'
+                               [href]='project["demoLink"]'
+                               title=""
+                               target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <owl-carousel-o *ngIf="i % 2 != 0"
+                                [options]="customOptions"
+                                class="owl-carousel-o">
+                    <ng-container *ngFor="let img of project.imgs">
+                        <ng-template carouselSlide>
+                            <div [id]="project.Title + i" class="img-container">
+                                <img [src]="img"
+                                     [alt]="project.Title"
+                                     class="img-feature-project rounded" />
+                            </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+                <div *ngIf="i % 2 != 0"
+                     class="img-feature-project-container"
+                     data-aos="fade-up"
+                     data-aos-duration="1000">
+                    <div class="img-feature-project-box">
+                        <div class="img-container" style='width: auto;'>
+                            <img [src]="project.imgs[0]"
+                                 [alt]="project.imgs[0]"
+                                 class="img-feature-project rounded"
+                                 width="600px" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

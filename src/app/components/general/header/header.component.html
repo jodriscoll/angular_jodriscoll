@@ -1,0 +1,91 @@
+<nav [@animateMenu]
+     class="navbar main-navbar on-top"
+     [class.nav-shadow]='this.pageYPosition > 0'>
+    <div class="container">
+        <div class="navbar-brand">
+            <span>&lt;jodriscoll.com/&gt;</span>
+        </div>
+        <ul ngbNav
+            #nav="ngbNav"
+            class="menu">
+            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
+                <a ngbNavLink
+                   (click)='scroll("about")'
+                   title="Learn a little bit more about who I am">
+                    <span class="underline nav-text"> {{ "Header.item1" | translate }}</span>
+                </a>
+            </li>
+            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_experience", "menu", "click")'>
+                <a ngbNavLink
+                   (click)='scroll("jobs")'
+                   title="Look at my previous roles and responsibilities">
+                    <span class="underline nav-text">{{ "Header.item2" | translate }}</span>
+                </a>
+            </li>
+            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_jobs", "menu", "click")'>
+                <a ngbNavLink
+                   (click)='scroll("projects")'
+                   title="View a list of Projects">
+                    <span class="underline nav-text">{{ "Header.item3" | translate }}</span>
+                </a>
+            </li>
+            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
+                <a ngbNavLink
+                   (click)='scroll("contact")'
+                   title="Reach out and connect">
+                    <span class="underline nav-text">{{ "Header.item4" | translate }}</span>
+                </a>
+            </li>
+            <li ngbNavItem>
+                <a ngbNavLink
+                   (click)='downloadResume()'
+                   title="Download a copy of my most recent Resume">
+                    <span class="underline nav-text">{{ "Header.resumeBtn" | translate }}</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="menu-wrapper">
+            <div (click)='responsiveMenuVisible = !responsiveMenuVisible'
+                 [class.animate]='responsiveMenuVisible'
+                 class="hamburger-menu"></div>
+        </div>
+        <div class="menu-responsive" [ngStyle]='{ "pointer-events": !responsiveMenuVisible ? "none" : "" }'>
+            <aside [class.aside-show]='responsiveMenuVisible'
+                   [class.nav-shadow]='this.pageYPosition > 0'
+                   class="on-top">
+                <nav>
+                    <ol>
+                        <li (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
+                            <a (click)='scroll("about")' title="">
+                                {{ "Header.item1" | translate }}
+                            </a>
+                        </li>
+                        <li (click)='analyticsService.sendAnalyticEvent("click_experience", "menu", "click")'>
+                            <a (click)='scroll("jobs")' title="">
+                                {{ "Header.item2" | translate }}
+                            </a>
+                        </li>
+                        <li (click)='analyticsService.sendAnalyticEvent("click_jobs", "menu", "click")'>
+                            <a (click)='scroll("projects")' [title]='"View a list of" + "Header.Item3" | translate' title="">
+                                {{ "Header.item3" | translate }}
+                            </a>
+                        </li>
+                        <li (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
+                            <a (click)='scroll("projects")' title="">
+                                {{ "Header.item4" | translate }}
+                            </a>
+                        </li>
+                        <li>
+                            <a (click)="downloadResume()"
+                               class="main-btn resume-btn"
+                               title="">
+                                {{ "Header.resumeBtn" | translate }}
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+            </aside>
+        </div>
+    </div>
+</nav>

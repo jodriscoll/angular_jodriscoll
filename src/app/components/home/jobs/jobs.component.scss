@@ -1,0 +1,128 @@
+@import "./../../../../variables.scss";
+
+::ng-deep .jobs {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+
+    .container {
+        height: 50vh;
+    }
+
+    .jobs-tabs {
+        display: flex;
+
+        .tab-content {
+            margin-left: 38px;
+        }
+
+        ul {
+            border: none;
+            display: block;
+
+            li {
+                border-left: 2px solid $lightestNavy;
+                border-left-color: rgb(48, 60, 85);
+                font-size: 16px;
+            }
+        }
+
+        a {
+            align-items: center;
+            background-color: transparent;
+            color: $slate;
+            cursor: pointer;
+            display: flex;
+            font-size: 13px;
+            height: 42px;
+            padding: 0 20px 2px;
+            position: relative;
+            text-align: left;
+            text-decoration: none;
+            text-decoration-skip-ink: auto;
+            transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+            white-space: nowrap;
+            width: 100%;
+
+            &:hover {
+                background-color: lighten($lightNavy, 10%);
+                color: $offWhite;
+                border-color: transparent;
+                border-radius: 0;
+            }
+
+            &.active {
+                background-color: $lightNavy;
+                color: $offWhite;
+                border-color: transparent;
+                border-radius: 0;
+            }
+        }
+    }
+
+    .job-time {
+        font-family: $fixedWidthFont;
+        font-size: 13px;
+        font-weight: normal;
+        letter-spacing: 0.05em;
+        color: $lightSlate;
+        margin-bottom: 30px;
+    }
+
+    .job-description {
+        font-size: 14px;
+        margin-bottom: 10px;
+        padding-left: 30px;
+        position: relative;
+
+        &::before {
+            color: $lightestNavy;
+            content: '⛁';
+            left: 0;
+            position: absolute;
+        }
+    }
+}
+
+.jobs {
+    .title-tab-content {
+        color: $lightestSlate;
+        font-size: 22px;
+        font-weight: $font-weight-medium;
+        margin-bottom: 5px;
+
+        .company-tab-content {
+            color: $lightestNavy;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .jobs {
+        .job-description {
+            padding: 0;
+        }
+    }
+
+    .jobs-tabs {
+        display: block;
+
+        .tab-content {
+            margin-left: 0;
+        }
+
+        ul {
+            display: block;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media (min-width: 960px) {
+    .jobs {
+        min-height: 1300px;
+    }
+}

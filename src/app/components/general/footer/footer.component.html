@@ -1,0 +1,32 @@
+<footer>
+    <div [@animateFooter]>
+        <ul class="footer__left-bar d-none d-md-block">
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")'
+                   href="https://github.com/jodriscoll"
+                   target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/jtodriscoll"
+                   target="_blank"
+                   (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer__built-with text-center">
+        <a href="https://github.com/jodriscoll"
+           target="_blank"
+           rel="nofollow noopener noreferrer"
+           (click)='analyticsService.sendAnalyticEvent("click_github_portfolio", "footer", "click")'>
+            Built with <img src="assets/images/angular-line.svg"
+                            class="angular-logo"
+                            width="18"
+                            alt="angular" />
+        </a>
+    </div>
+</footer>
