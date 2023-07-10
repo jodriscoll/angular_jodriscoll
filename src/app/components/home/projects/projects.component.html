@@ -65,7 +65,8 @@
                             [class.justify-content-start]='i % 2 != 0'
                             class="project__skills">
                             <li *ngFor="let technology of project.Technologies; let li = index"
-                                [class.ml-3]="li > 0">
+                                [class.ml-3]="li > 0 && i % 2 == 0"
+                                [class.mr-3]="li > 0 && i % 2 != 0">
                               <span class="underline technology">{{ technology }}</span>
                             </li>
                         </ul>

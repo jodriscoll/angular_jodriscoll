@@ -94,7 +94,6 @@ $projectBorderRadius: 10px;
 }
 
 .img-container {
-    width: 600px;
     max-height: 320px;
     overflow: auto;
     border-radius: 3px;
@@ -122,7 +121,6 @@ $projectBorderRadius: 10px;
                 box-shadow: none;
                 position: relative;
                 z-index: $z-base + 1;
-                padding: 25px;
                 background-color: transparent;
                 color: $lightSlate;
                 font-size: 18px;
@@ -169,7 +167,6 @@ $projectBorderRadius: 10px;
         .project__info-right .project__box,
         .project__info-left .project__box {
             padding: 20px;
-            background: #0a192fe3;
         }
     }
 }

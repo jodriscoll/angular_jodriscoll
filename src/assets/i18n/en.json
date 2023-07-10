@@ -1,5 +1,5 @@
 {
-    "Header.item1": "About me",
+    "Header.item1": "About",
     "Header.item2": "Experience",
     "Header.item3": "Projects",
     "Header.item4": "Contact",
@@ -116,45 +116,28 @@
     "FeatureProjects.Label": "Featured Project",
     "FeatureProjects.Projects": [
         {
-            "Title": "Rehab.com",
-            "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
-            "Images": [
-                "assets/portfolio-visuals/rehab.com.png"
-            ],
-            "demoLink": "https://www.rehab.com",
-            "Technologies": [
-                "Symphony + MySQL",
-                "VueJS",
-                "HTML5 + SCSS",
-                "AWS",
-                "Python",
-                "GitHub Actions"
-            ]
-        },
-        {
             "Title": "Sequoia Capital",
-            "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
+            "Description": "A dynamically rich WordPress theme with custom integration into the Gutenberg block system, utilizing a range of animation libraries, such as custom CSS, Animate on Scroll and Lotti.js, all hosted within a WordPress VIP solution.",
             "Images": [
                 "assets/portfolio-visuals/sequioacap.png"
             ],
             "demoLink": "https://www.sequoiacap.com",
             "Technologies": [
                 "WordPress",
-                "HTML5 + SCSS + Webpack",
                 "AOS + CSS Animations",
-                "CSS Animations",
-                "Bootstrap 4.x",
+                "Bootstrap 5.x",
                 "PHP + MySQL",
                 "WordPress VIP"
             ]
         },
         {
             "Title": "SageLife",
-            "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
+            "Description": "SageLife was a Pantheon hosted WordPress multi-site instance, that leveraged a small custom built AWS NameServer for their community domains.",
             "Images": [
-                "assets/portfolio-visuals/sagelife.png",
-                "assets/portfolio-visuals/sagelife.png",
-                "assets/portfolio-visuals/sagelife.png"
+                "assets/portfolio-visuals/sagelife_home.png",
+                "assets/portfolio-visuals/sagelife_locations.png",
+                "assets/portfolio-visuals/sagelife_resources.png",
+                "assets/portfolio-visuals/sagelife_location.png"
             ],
             "demoLink": "https://www.sagelife.com",
             "Technologies": [
@@ -168,7 +151,7 @@
         },
         {
             "Title": "TAK.gov",
-            "Description": "TAK is the core of a suite of geo-referenced imagery and communications tools that allow for <span class='underline'>scaled operational planning, data sharing, visualized elevation data, and target management</span>. With TAK, your team can get oriented quickly, make <span class='underline'>better informed decisions</span> and quickly respond to threats. Add TAK to your operations, and make sure when your team deploys, you have the unfair advantage.",
+            "Description": "TAK.gov was a custom application that utilized Bootstrap 6, along with ES6 and SCSS. It used a small stand-alone Express environment for templating, but was imported into a Ruby environment.",
             "Images": [
                 "assets/portfolio-visuals/tak-gov-home.png",
                 "assets/portfolio-visuals/tak-gov-products.png",
@@ -185,39 +168,54 @@
         },
         {
             "Title": "i6tix",
-            "Description": "Lorem ipsum dolor sit amet, <span class='underline'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class='underline'>exercitation ullamco laboris nisi</span> ut aliquip ex ea commodo consequat.",
+            "Description": "ReactJS application that utilized LocalStorage for <canvas> uploads, that would allow users the ability to build dynamic posters relative to music events and more...",
             "Images": [
                 "assets/portfolio-visuals/i6tix.png"
             ],
             "demoLink": "https://d2ywhp6fltyv6h.cloudfront.net/storefront.html",
             "Technologies": [
-                "ReactJS",
-                "AWS + Cloudfront",
+                "React 16.2 + Redux",
+                "ESLint + Jest",
+                "AWS + CloudFront",
                 "LocalStorage",
                 "SCSS + ES6"
+            ]
+        },
+        {
+            "Title": "Rehab.com",
+            "Description": "A custom Symphony application that had multiple integrations with HubSpot, VueJS, Angular and more...",
+            "Images": [
+                "assets/portfolio-visuals/rehab.com.png"
+            ],
+            "demoLink": "https://www.rehab.com",
+            "Technologies": [
+                "Symphony + MySQL",
+                "VueJS",
+                "HTML5 + SCSS",
+                "AWS",
+                "Python",
+                "GitHub Actions"
             ]
         }
     ],
     "OtherProjects.Title": "Additional Projects",
     "OtherProjects.Projects": [
         {
-            "Title": "Python Slack Cleaner",
-            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "ghLink": "https://github.com/jodriscoll/py_slack_cleaner",
-            "demoLink": "",
+            "Title": "Angular 13 Portfolio",
+            "Description": "A light-weight Angular 13 web that built to power the portfolio for jodriscoll.com",
+            "ghLink": "https://github.com/jodriscoll/angular_portfolio",
+            "demoLink": "https://jodriscoll.pages.dev",
             "Technologies": [
-                "WordPress",
-                "HTML5 + SCSS + Webpack",
+                "Angular 13",
                 "AOS + CSS Animations",
-                "PHP + MySQL",
-                "Pantheon"
+                "CloudFlare Pages"
             ]
         },
         {
             "Title": "Rehab.com Patient Portal",
-            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Description": "VueJS application that integrated into a Symphony web app, utilizing data exchanges between a MySQL database.",
             "ghLink": "https://github.com/jodriscoll/vue_patient_portal",
-            "demoLink": "",
+            "demoLink": "https://www.rehab.com/login",
             "Technologies": [
                 "VueJS + Symphony",
                 "HTML5 + SCSS",
@@ -228,9 +226,9 @@
         },
         {
             "Title": "Energy Rate Calculator",
-            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Description": "A custom Rate Calculator built for a WordPress environment, that allowed users to enter their home usage data to generate rate estimates for NBU.",
             "ghLink": "https://github.com/jodriscoll/wp_nbu_rate_calculator",
-            "demoLink": "",
+            "demoLink": "https://www.nbutexas.com/bill-calculator/",
             "Technologies": [
                 "PHP/WordPress/ACF",
                 "JavaScript",
