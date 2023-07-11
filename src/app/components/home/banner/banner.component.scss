@@ -12,10 +12,10 @@
         .inner {
             display: table-cell;
             vertical-align: middle;
+        }
 
-            .content {
-                margin-top: 98px;
-            }
+        .content {
+            margin-top: 98px;
 
             h1 {
                 color: $globalTertiary;
@@ -35,28 +35,20 @@
             }
 
             h2 {
-                background: linear-gradient(120deg, #0087f2, #000772, #ab00ec, #4a00d7);
-                background-clip: text;
-                color: $lightestSlate;
+                @include gradient-text($ltr: true);
                 font-size: 70px;
                 font-weight: $font-weight-demi;
                 line-height: 1;
             }
 
             h3 {
-                background: linear-gradient(-120deg, #0087f2, #000772, #ab00ec, #4a00d7);
-                background-clip: text;
-                color: $slate;
-                font-size: 40px;
+                @include gradient-text($rtl: true);
                 font-weight: $font-weight-light;
                 line-height: 1;
             }
 
             .banner-description {
-                font-size: 16px;
                 font-weight: $font-weight-light;
-                letter-spacing: 1px;
-                line-height: 1.8;
                 margin-bottom: 70px;
                 z-index: $z-base + 1;
             }
@@ -71,7 +63,6 @@
 
             a {
                 display: inline-block;
-                font-size: 16px;
             }
         }
     }
@@ -92,6 +83,19 @@
             right: 0;
             width: 50vw;
         }
+
+        .content {
+            h3 {
+                font-size: 24px;
+            }
+
+            .banner-description {
+                font-size: 16px;
+                font-weight: $font-weight-light;
+                letter-spacing: 0;
+                line-height: 1.6;
+            }
+        }
     }
 }
 @media (min-width: 768px) {
@@ -101,6 +105,18 @@
             bottom: -120px;
             right: 2vw;
             max-width: 50vw;
+        }
+
+        .content {
+            h3 {
+                font-size: 30px;
+            }
+
+            .banner-description {
+                font-size: 16px;
+                letter-spacing: 1px;
+                line-height: 1.8;
+            }
         }
     }
 }

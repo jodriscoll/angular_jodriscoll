@@ -8,7 +8,7 @@
     "Banner.Pretitle": "Let me introduce myself ...",
     "Banner.FullName": "Joseph O'Driscoll",
     "Banner.JobTitle": "A MEAN Front-End Developer",
-    "Banner.Description": "With over <span class='underline'>10+ years of web development and design expertise</span>, I've adeptly employed open-source technologies to construct dynamic web applications, cutting-edge mobile experiences, and immersive digital encounters. My diligent efforts have consistently facilitated business expansion and enhanced user experiences",
+    "Banner.Description": "With over <span class='underline'>10+ years</span> of web development and design expertise, I've adeptly employed <span class='underline'>open-source</span> technologies to construct dynamic web applications, cutting-edge mobile experiences, and immersive digital encounters. My diligent efforts have consistently facilitated <span class='underline'>business expansion</span> and <span class='underline'>enhanced user experiences</span>",
     "Banner.ActionBtn": "Let's Connect",
     "AboutMe.Title": "Introduction",
     "AboutMe.Paragraphs": [
