@@ -1,26 +1,34 @@
 <section class="section banner">
     <div [@bannerTrigger] class="container">
-        <div class="section-box-banner">
-            <div class="content">
-                <div>
-                    <h1 [innerHTML]='"Banner.Pretitle" | translate' class="mt-4"></h1>
+        <div class="section-box-banner row">
+            <div class="col-12">
+                <div class="content">
+                    <div>
+                        <h1 [innerHTML]='"Banner.Pretitle" | translate' class="mt-4"></h1>
+                    </div>
+                    <div class='banner-title'>
+                        <h2 [innerHTML]='"Banner.FullName" | translate' class="mt-4"></h2>
+                        <h3 [innerHTML]='"Banner.JobTitle" | translate' class="mt-4"></h3>
+                    </div>
+                    <div class='banner-description'>
+                        <p [innerHTML]='"Banner.Description" | translate' class="mt-4"></p>
+                    </div>
                 </div>
-                <div class='banner-title'>
-                    <h2 [innerHTML]='"Banner.FullName" | translate' class="mt-4"></h2>
-                    <h3 [innerHTML]='"Banner.JobTitle" | translate' class="mt-4"></h3>
+                <div class="call-to-action">
+                    <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")'
+                       href="mailto:joey@jodriscoll.com"
+                       target="_blank"
+                       class="button">
+                        {{ "Banner.ActionBtn" | translate }}
+                    </a>
                 </div>
-                <div class='banner-description'>
-                    <p [innerHTML]='"Banner.Description" | translate' class="mt-4"></p>
-                </div>
-            </div>
-            <div class="div-btn-banner">
-                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")'
-                   href="mailto:joey@jodriscoll.com"
-                   target="_black"
-                   class="button">
-                    {{ "Banner.ActionBtn" | translate }}
-                </a>
             </div>
         </div>
+    </div>
+    <div data-aos="fade-up" data-aos-offset="-200" data-aos-duration="1000">
+        <img src="assets/images/headshot-cutout.webp"
+             width="400"
+             class="intro-portrait"
+             alt="Headshot photo" />
     </div>
 </section>

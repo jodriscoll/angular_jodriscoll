@@ -232,7 +232,7 @@
     // When pinned to the top.
     &.on-top {
         backdrop-filter: blur(4px);
-        background: rgba($globalBackground, .5);
+        background: rgba($globalBackground, 0);
         height: 100px;
         position: fixed;
         top: 0;
