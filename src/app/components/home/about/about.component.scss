@@ -1,9 +1,7 @@
 @import "./../../../../variables.scss";
 
 .about {
-    &.section {
-        background: $solidWhite;
-    }
+    background: $solidWhite;
 
     .about-description {
         margin-top: 30px;
@@ -11,9 +9,7 @@
 
         p {
             font-size: 16px;
-            font-weight: 300;
-            letter-spacing: 1px;
-            line-height: 1.4;
+            font-weight: $font-weight-light;
             margin-bottom: 20px;
         }
     }
@@ -84,6 +80,26 @@
         }
     }
 }
+@media (max-width: 768px) {
+    .about {
+        .about-description {
+            p {
+                letter-spacing: 0;
+                line-height: 1.4;
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    .about {
+        .about-description {
+            p {
+                letter-spacing: 1px;
+                line-height: 1.4;
+            }
+        }
+    }
+}
 @media (max-width: 992px) {
     .skills-list {
         grid-template-columns: repeat(1, 100%);
@@ -96,7 +112,6 @@
         margin-right: 0;
     }
 }
-
 @media (min-width: 992px) {
     .skills-list {
         grid-template-columns: repeat(2,minmax(140px,300px));
@@ -104,3 +119,8 @@
     }
 }
 
+@keyframes imageWarp {
+    0%   { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+    50%  { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+    100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+}

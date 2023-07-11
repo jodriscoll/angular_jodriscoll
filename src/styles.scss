@@ -24,7 +24,7 @@ body {
 }
 
 a {
-    color: $purple;
+    color: $globalTertiary;
     text-decoration: none;
 
     &:hover {
@@ -33,8 +33,12 @@ a {
     }
 }
 
-.section {
+.outer {
     background: transparent;
+}
+
+.inner {
+    padding: 130px 0;
 }
 
 .section-title {
@@ -60,10 +64,6 @@ a {
     }
 }
 
-.section-box {
-    padding: 130px 0;
-}
-
 .button {
     color: $blue;
     background-color: transparent;
@@ -80,7 +80,7 @@ a {
     &:hover,
     &:focus,
     &:active {
-        background-color: rgba($purple, .08);
+        background-color: rgba($globalTertiary, .08);
         outline: none;
     }
 }
@@ -92,14 +92,14 @@ a {
     color: $globalTertiary;
 
     &::after {
-        background: $darkSlate repeat scroll 0 0 transparent;
+        background: $globalTertiary repeat scroll 0 0 transparent;
         bottom: 3px;
         content: '';
         display: block;
         height: 1px;
         left: 50%;
         position: absolute;
-        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        transition: width .3s ease 0s, left .3s ease 0s;
         width: 0;
     }
 
@@ -146,7 +146,7 @@ a {
     }
 }
 @media (min-width: 768px) {
-    .section {
+    .outer {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -171,7 +171,7 @@ a {
     }
 }
 @media (min-width: 992px) and (max-width: 1100px) {
-    .container{
+    .container {
         max-width: 800px;
     }
 }
@@ -181,7 +181,8 @@ a {
     .big-title {
         font-size: 70px;
     }
-    .big-subtitle{
+
+    .big-subtitle {
         font-size: 14px;
     }
 }
@@ -189,10 +190,4 @@ a {
     .container {
         max-width: 950px;
     }
-}
-
-@keyframes imageWarp {
-    0%   { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
-    50%  { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
-    100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
 }

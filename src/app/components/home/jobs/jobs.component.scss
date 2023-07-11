@@ -18,8 +18,7 @@
             display: block;
 
             li {
-                border-left: 2px solid transparent;
-                font-size: 16px;
+                margin-bottom: 5px;
             }
         }
 
@@ -42,22 +41,40 @@
             white-space: nowrap;
             width: 100%;
 
+            &.active,
             &:hover {
-                background-color: lighten($globalTertiary, 25%);
-                color: $offWhite;
-                border-color: transparent;
-                border-radius: 0;
-                text-shadow: 1px 1px 1px lighten($globalTertiary, 10%);
-            }
-
-            &.active {
-                background-color: $globalTertiary;
                 color: $offWhite;
                 border-color: transparent;
                 border-radius: 0;
                 text-shadow: 1px 1px 1px darken($globalTertiary, 10%);
             }
+
+            &:hover {
+                background-color: lighten($globalTertiary, 25%);
+            }
+
+            &.active {
+                background-color: $globalTertiary;
+            }
         }
+    }
+
+    .job-title {
+        @include gradient-text($rtl: true);
+        font-size: 22px;
+        font-weight: $font-weight-medium;
+        margin-bottom: 0;
+    }
+
+    .job-additional {
+        margin-bottom: 8px;
+    }
+
+    .job-additional-info {
+        color: $slate;
+        font-size: 16px;
+        font-weight: $font-weight-light;
+        line-height: 22px;
     }
 
     .job-time {
@@ -80,20 +97,6 @@
             content: '⛁';
             left: 0;
             position: absolute;
-        }
-    }
-
-    .title-tab-content {
-        color: $purple;
-        font-size: 22px;
-        font-weight: $font-weight-medium;
-        margin-bottom: 5px;
-
-        .company-tab-content {
-            color: $slate;
-            font-size: 16px;
-            font-weight: $font-weight-light;
-            line-height: 22px;
         }
     }
 }
@@ -120,9 +123,7 @@
         .jobs-tabs {
             ul {
                 li {
-                    border-bottom-right-radius: 20px;
-                    border-top-right-radius: 20px;
-                    border-left-color: $globalTertiary;
+                    border-radius: 20px;
                     overflow: hidden;
                 }
             }
@@ -137,7 +138,7 @@
     .jobs {
         .jobs-tabs {
             ul {
-                min-width: 200px;
+                min-width: 250px;
             }
         }
     }

@@ -1,13 +1,10 @@
 @import "./../../../../variables.scss";
 
 .contact {
-    height: 100vh;
+    background: $solidWhite;
+    min-height: 100vh;
     text-align: center;
     width: 100%;
-
-    &.section {
-        background: $solidWhite;
-    }
 
     .container {
         align-items: center;
@@ -19,8 +16,8 @@
 }
 
 .contact-title {
+    @include gradient-text($ltr: true);
     align-items: center;
-    color: $globalTertiary;
     display: flex;
     font-size: 60px;
     font-weight: $font-weight-demi;

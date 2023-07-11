@@ -50,3 +50,26 @@ $z-high:                999;
 $z-medium:              99;
 $z-low:                 9;
 $z-base:                1;
+
+// Theme breakpoints.
+$breakpoints: (
+    xs:  0,
+    sm:  375px,
+    md:  768px,
+    lg:  1024px,
+    xl:  1440px,
+    xxl: 1920px
+);
+$max-breakpoint: 1920;
+
+// @include gradient-text($rtl: true);
+@mixin gradient-text($ltr: false, $rtl: false) {
+    color: $lightestSlate;
+
+    @if $ltr { background: linear-gradient(120deg, #0087f2, #000772, #ab00ec, #4a00d7); }
+    @if $rtl { background: linear-gradient(-120deg, #0087f2, #000772, #ab00ec, #4a00d7); }
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

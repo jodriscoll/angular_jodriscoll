@@ -10,23 +10,26 @@
     "Banner.JobTitle": "A MEAN Front-End Developer",
     "Banner.Description": "With over <span class='underline'>10+ years of web development and design expertise</span>, I've adeptly employed open-source technologies to construct dynamic web applications, cutting-edge mobile experiences, and immersive digital encounters. My diligent efforts have consistently facilitated business expansion and enhanced user experiences",
     "Banner.ActionBtn": "Let's Connect",
-    "AboutMe.Title": "A little bit of background",
+    "AboutMe.Title": "Introduction",
     "AboutMe.Paragraphs": [
-        "Throughout my extensive <span class='underline'>10+ years of experience</span> as a Front-End Developer, I've consistently demonstrated a strong commitment to continuous improvement and professional growth.",
+        "Over the course of my extensive career spanning <span class='underline'>more than a decade</span> as a Front-End Web Developer, I've consistently showcased unwavering dedication to <span class='underline'>continuous improvement</span> and <span class='underline'>personal development</span>.",
         "In addition to my technical expertise, I've successfully led teams, fostering a culture of <span class='underline'>empathy</span>, <span class='underline'>motivation</span>, and <span class='underline'>collaboration</span>.",
-        "I've continually expanded my proficiency across a broad range of technologies, including:"
+        "I've continually expanded my proficiency across a broad range of technologies that include:"
     ],
     "AboutMe.Skills": [
-        "Angular, ReactJS, VueJS",
-        "HTML5, (S)CSS, LESS",
-        "NodeJS",
+        "Angular, React, Vue",
+        "HTML5, SASS",
+        "Node.JS",
         "ExpressJS, NestJS",
+        "Bootstrap, Material UI, TailwindCSS",
         "WordPress Development",
         "Web Performance",
         "CI/CD",
-        "JavaScript, TypeScript",
+        "JavaScript ES5+",
+        "TypeScript",
         "Search Engine Optimization",
-        "Bootstrap, Material, PrimeFaces, TailwindCSS"
+        "Test Driven Development (TDD)",
+        "ADA, 508, and WAI-ARIA Compliance"
     ],
     "Experience.Title": "Work Experience",
     "Experience.Jobs": [
@@ -34,6 +37,8 @@
             "Tab": "Rehab LLC",
             "Title": "Director of Web Operations",
             "Date": "October 2022 - May 2023",
+            "Employment": "Contractor",
+            "Location": "Remote",
             "Description": [
                 "Took charge of optimizing and streamlining a dated Symphony application, successfully reducing its codebase by over 60% through thorough cleanup and optimization measures.",
                 "Effectively oversaw the implementation of GitHub Actions and CloudFlare Pages technologies, enhancing our development workflow and optimizing the deployment of our website.",
@@ -48,19 +53,23 @@
             "Tab": "Rehab.com",
             "Title": "Senior Performance Engineer",
             "Date": "January 2022 - October 2023",
+            "Employment": "Contractor",
+            "Location": "Remote",
             "Description": [
                 "Collaborating closely with Core Web Vitals and performance auditing tools, I meticulously fine-tuned the performance of a Symphony web application, aiming to achieve a higher ranking for organic users by delivering an optimized and seamless user experience.",
-                "Led adopting and implementing of AGILE methodologies for a small business, driving efficient collaboration and adaptability in our processes.",
-                "I adeptly manage the day-to-day operations of multiple web applications, addressing a wide range of issues, including performance optimization, bug resolution, SEO enhancements, payment integration, content management, and any other challenges that arise, ensuring smooth and efficient functionality across the board.",
-                "Successfully developed a Vue.js application seamlessly integrated with a Symphony application, empowering patients to curate treatment providers tailored to their specific needs and preferences."
+                "Led adoption and implementation of AGILE methodologies for a small business, driving efficient collaboration and adaptability in our processes.",
+                "Adeptly managed the day-to-day operations of multiple web applications, addressing a wide range of issues, including performance optimization, bug resolution, SEO enhancements, payment integration, content management, and many other challenges that arise, ensuring smooth and efficient functionality across all products.",
+                "Successfully developed and delivered a Vue.js application seamlessly integrated with Symphony, empowering patients to curate treatment providers tailored to their needs and preferences."
             ]
         },
         {
             "Tab": "Mindgrub",
             "Title": "Senior Software Engineer",
             "Date": "August 2017 - January 2022",
+            "Employment": "Full-Time",
+            "Location": "Hybrid",
             "Description": [
-                "Responsible for building ground-up user interfaces with common JSX templating frameworks.",
+                "Responsible for building ground-up user interfaces within WordPress, Drupal, React, and Angular frameworks utilizing MySQL, LocalStorage, MongoDB, AWS, GitLab CI, and Composer configurations.",
                 "Leveraged RESTful API services leveraging JSON, AJAX, LocalStorage, and SessionStorage.",
                 "Utilized AGILE and Waterfall methodologies to accomplish a variety of project deliverables.",
                 "Conducted observational user testing, reviewed designs against usability heuristics, and performed performance audits on various web applications.",
@@ -76,14 +85,14 @@
             "Tab": "Jellyfish",
             "Title": "Senior Front-End Engineer",
             "Date": "July 2015 - August 2017",
+            "Employment": "Full-Time",
+            "Location": "On-site",
             "Description": [
                 "Developed web apps using HTML5, CSS3 (SASS & LESS), JavaScript ES5, Angular 3, Bootstrap, jQuery, WordPress, Drupal, Docker, and several other Front-End technologies.",
                 "Agile (SCRUM) team member delivering regular updates and participating in daily scrums, retrospectives, and backlog pruning.",
                 "Built and managed DoubleClick interactive ads.",
                 "Worked closely with graphic designers, UX designers, and interactive design specialists to create rich user experiences.",
-                "Handled data display, events, reusable components, directives, forms, routing, and navigation for both Angular and ReactJS.",
-                "Used template-driven forms with HTML data for easy implementation and validation.",
-                "Introduced the adoption of Flexbox and ES5 for improved user experiences and consolidated JavaScript composition.",
+                "Introduced the adoption of CSS Flexbox and ES5 for improved user experiences and consolidated JavaScript composition.",
                 "Utilized JSON as a communication protocol between the front-end and back-end, enabling seamless data exchange and integration between the two components of the application.",
                 "Implemented and tested data management using MySQL, Postman, and API development/testing using Swagger.",
                 "Utilized jQuery extensively for event manipulation and employed various plugins to enhance and extend interactive functionalities across multiple web applications.",
@@ -94,32 +103,131 @@
             "Tab": "kor group",
             "Title": "Lead Web Engineer",
             "Date": "August 2014 - July 2015",
+            "Employment": "Full-Time",
+            "Location": "On-site",
             "Description": [
-                "Collaborated with the front-end developer and design team to establish workflows, user personas, and website content structure, ensuring a cohesive and user-friendly experience.",
+                "Collaborated as the front-end developer with the design team to establish workflows, user personas, and website content structure, ensuring a cohesive and user-friendly experience.",
                 "Applied UI and UX design expertise to contribute to the design and development process, effectively collaborating and presenting ideas to stakeholders.",
-                "Kept abreast of the latest trends and advancements in design and development industries, incorporating best practices and ensuring up-to-date knowledge.",
                 "Utilized knowledge of browser compatibilities and responsive site design to create visually appealing and functional web and mobile interfaces.",
                 "Conducted user research and user testing to gather insights and feedback, iteratively improving the user experience and optimizing website performance.",
-                "Hand coded from Photoshop/Illustrator/InDesign mockups",
-                "Generating professional-level hand-coded HTML, CSS, and JS code",
-                "Managed multiple projects and time-sensitive deadlines",
-                "Collaborated with the creative, technical and client teams on a daily basis",
+                "Managed multiple projects and time-sensitive deadlines.",
+                "Collaborated with the creative, technical, and client teams daily.",
                 "Translated Photoshop/Illustrator mockups into hand-coded HTML, CSS, and JS, ensuring pixel-perfect accuracy and attention to detail.",
-                "Demonstrated professional-level expertise in hand-coding HTML, CSS, and JS, implementing clean and efficient code practices to deliver high-quality front-end solutions.",
-                "Efficiently managed multiple projects simultaneously, prioritizing tasks and meeting time-sensitive deadlines.",
-                "Fostered effective collaboration with creative, technical, and client teams, actively participating in discussions and providing valuable input to achieve project goals and client satisfaction.",
-                "Maintained open and proactive communication with cross-functional teams, facilitating smooth coordination and alignment throughout the project lifecycle."
+                "Efficiently manage multiple projects simultaneously, prioritizing tasks and meeting time-sensitive deadlines.",
+                "Fostered effective collaboration with creative, technical, and client teams, actively participating in discussions and providing valuable input to achieve project goals and client satisfaction."
+            ]
+        },
+        {
+            "Tab": "CogoLabs",
+            "Title": "Interactive Quantitative Producer",
+            "Date": "February 2014 - July 2014",
+            "Employment": "Contractor",
+            "Location": "On-site",
+            "Description": [
+                "Collaborated with a cross-functional team of engineers, designers, and product managers to ideate, build, and launch web-based startups from inception to deployment.",
+                "Demonstrated experience building responsive email templates that utilize A/B testing methodologies and have undergone rigorous HTML testing with Litmus.",
+                "Developed and maintain high-quality web applications using a variety of programming languages such as Python, Ruby, Ruby on Rails, PHP, and JavaScript.",
+                "Implemented engaging user interfaces and experiences through front-end development tasks, including responsive email development, HTML, CSS (SASS and Dart), and JavaScript.",
+                "Stayed current with industry trends, technologies, and best practices and leveraged this knowledge to propose innovative solutions and approaches.",
+                "Actively participated in agile development processes, including daily stand-ups, sprint planning, and retrospectives, to ensure efficient project execution and timely delivery."
+            ]
+        },
+        {
+            "Tab": "Shawmut Construction",
+            "Title": "Interactive Multimedia Producer",
+            "Date": "August 2013 - February 2014",
+            "Employment": "Contractor",
+            "Location": "On-site",
+            "Description": [
+                "Executed daily web & email production for the company, located and resolved issues, conducted quality assurance, and tested the effectiveness of campaigns through A/B testing.",
+                "Performed regular updates on web pages using content management systems and standard HTML/CSS.",
+                "Worked with external web developers and the internal IS&T department to facilitate fixes of website and email platform bugs, enhancements, and new development.",
+                "Built, tested, and distributed emails using email management platforms, HTML/CSS editors, email service providers, and standard web browsers.",
+                "Created mock-ups and designs for web pages, email templates, banners, etc., using current industry best practices.",
+                "Worked collaboratively with marketing/creative departments to propose and deploy new creative/interactive marketing strategies, production methods, and design changes.",
+                "Expressed a solid grasp of online and offline direct response advertising principles and CRM."
+            ]
+        },
+        {
+            "Tab": "Mass General Hospital",
+            "Title": "Interactive Web Producer",
+            "Date": "December 2010 - August 2013",
+            "Employment": "Contractor",
+            "Location": "On-site",
+            "Description": [
+                "Focused on producing web-ready assets and managing content across various websites using respective content management systems.",
+                "Creating front-end XHTML/CSS templates for CMSs and web-based applications using design files (e.g., Photoshop, Fireworks) and adapting/repurposing existing HTML/CSS.",
+                "Converting externally produced content to the appropriate electronic format and generating packages using supplied editorial content and visual assets.",
+                "Supported the Assistant Director of Communications for Electronic Communications and worked on assigned projects, including limited video and multimedia production, front-end web development and design, art direction, image cropping, optimization, e-mail template development, and other tasks.",
+                "Collaborated closely with the director to implement AWS hosting solutions for various web applications, ensuring optimal performance, scalability, and cost efficiency",
+                "Provided technical troubleshooting support for the Department's applications and supported the Department's e-philanthropy platform, Blackbaud NetCommunity."
+            ]
+        },
+        {
+            "Tab": "Aptima",
+            "Title": "Creative Media Specialist",
+            "Date": "March 2008 - October 2010",
+            "Employment": "Full-Time",
+            "Location": "On-site",
+            "Description": [
+                "Served as a Creative Media Specialist, specializing in graphical design and multimedia training implementation.",
+                "Expertise in applications such as Adobe, Autodesk, Animation, and Broadcast Graphics allowed him to excel in various areas.",
+                "Successfully developed courseware for the Army and Air Force, including 40 hours of Interactive Multimedia Instruction (IMI) for the Combined Arms Support Command (CASCOM).",
+                "Played a vital role in converting existing CD-based training to a web-based format, contributing to the accessibility and scalability of the training materials."
+            ]
+        },
+        {
+            "Tab": "HealthcareSource",
+            "Title": "Junior Web Developer",
+            "Date": "September 2007 - February 2008",
+            "Employment": "Internship",
+            "Location": "On-site",
+            "Description": [
+                "Developed and managed web applications using languages such as ColdFusion, JavaScript, CSS, HTML, PHP, XML, and Ajax.",
+                "Worked with high-fidelity graphics and created layout designs based on pre-existing web applications.",
+                "Used Visual Source Safe as a code management system.",
+                "Managed projects using the SalesForce.com CMS system.",
+                "Assisted in creating dynamic JavaScript PDF forms leveraged within proprietary web apps."
+            ]
+        },
+        {
+            "Tab": "ITT Technical Institute",
+            "Title": "Student – A.A.S. in Specialized Technology, Multimedia",
+            "Date": "August 2006 - September 2008",
+            "Location": "On-site",
+            "Description": [
+                "Developed and managed web applications using languages such as ColdFusion, JavaScript, CSS, HTML, PHP, XML, and Ajax.",
+                "Worked with high-fidelity graphics and created layout designs based on pre-existing web applications.",
+                "Used Visual Source Safe as a code management system.",
+                "Managed projects using the SalesForce.com CMS system.",
+                "Assisted in creating dynamic JavaScript PDF forms leveraged within proprietary web apps."
+            ]
+        },
+        {
+            "Tab": "Earthbound Media Group",
+            "Title": "Junior Media Programmer",
+            "Date": "August 2004 - August 2005",
+            "Employment": "Full-Time",
+            "Location": "On-site",
+            "Description": [
+                "Contributed to the design of electronic media such as interactive CD-ROMs, Flash animations, website design and development, corporate branding, dynamic e-mail, and marketing campaigns.",
+                "Successfully managed multiple projects simultaneously in a fast-paced environment heavily involved in higher education.",
+                "Part of an award-winning design and interactive team playing the role of the Front-End Developer.",
+                "Introduced new technologies within the industry, such as CSS2 and JavaScript."
             ]
         }
     ],
-    "FeatureProjects.Title": "Recent Projects",
+    "FeatureProjects.Title": "Projects",
     "FeatureProjects.Label": "Featured Project",
     "FeatureProjects.Projects": [
         {
             "Title": "Sequoia Capital",
-            "Description": "A dynamically rich WordPress theme with custom integration into the Gutenberg block system, utilizing a range of animation libraries, such as custom CSS, Animate on Scroll and Lotti.js, all hosted within a WordPress VIP solution.",
+            "Description": "A WordPress theme that offers dynamic features and seamless integration with the Gutenberg block system. It harnesses the power of various animation libraries, including custom CSS, Animate on Scroll, and Lotti.js. All these capabilities are conveniently hosted within a WordPress VIP solution.",
             "Images": [
-                "assets/portfolio-visuals/sequioacap.png"
+                "assets/portfolio/sequoiacap_home.webp",
+                "assets/portfolio/sequoiacap_companies.webp",
+                "assets/portfolio/sequoiacap_founders.webp",
+                "assets/portfolio/sequoiacap_bio.webp"
             ],
             "demoLink": "https://www.sequoiacap.com",
             "Technologies": [
@@ -132,12 +240,12 @@
         },
         {
             "Title": "SageLife",
-            "Description": "SageLife was a Pantheon hosted WordPress multi-site instance, that leveraged a small custom built AWS NameServer for their community domains.",
+            "Description": "SageLife entailed a Pantheon-hosted WordPress multi-site instance, which adeptly utilized a meticulously crafted AWS NameServer to manage their community domains.",
             "Images": [
-                "assets/portfolio-visuals/sagelife_home.png",
-                "assets/portfolio-visuals/sagelife_locations.png",
-                "assets/portfolio-visuals/sagelife_resources.png",
-                "assets/portfolio-visuals/sagelife_location.png"
+                "assets/portfolio/sagelife_home.webp",
+                "assets/portfolio/sagelife_locations.webp",
+                "assets/portfolio/sagelife_resources.webp",
+                "assets/portfolio/sagelife_location.webp"
             ],
             "demoLink": "https://www.sagelife.com",
             "Technologies": [
@@ -151,11 +259,12 @@
         },
         {
             "Title": "TAK.gov",
-            "Description": "TAK.gov was a custom application that utilized Bootstrap 6, along with ES6 and SCSS. It used a small stand-alone Express environment for templating, but was imported into a Ruby environment.",
+            "Description": "TAK.gov was a bespoke application that employed the cutting-edge technologies of Bootstrap 6, ES6, and SCSS. It seamlessly integrated a compact, standalone Express environment for efficient templating, seamlessly imported into a Ruby environment for enhanced functionality.",
             "Images": [
-                "assets/portfolio-visuals/tak-gov-home.png",
-                "assets/portfolio-visuals/tak-gov-products.png",
-                "assets/portfolio-visuals/tak-gov-solutions.png"
+                "assets/portfolio/takgov_home.webp",
+                "assets/portfolio/takgov_news.webp",
+                "assets/portfolio/takgov_products.webp",
+                "assets/portfolio/takgov_product.webp"
             ],
             "demoLink": "https://tak.gov",
             "Technologies": [
@@ -168,13 +277,17 @@
         },
         {
             "Title": "i6tix",
-            "Description": "ReactJS application that utilized LocalStorage for <canvas> uploads, that would allow users the ability to build dynamic posters relative to music events and more...",
+            "Description": "The ReactJS application employed the utilization of LocalStorage for seamless <canvas> uploads, empowering users to create dynamic posters specifically tailored for music events and various other purposes.",
             "Images": [
-                "assets/portfolio-visuals/i6tix.png"
+                "assets/portfolio/i6tix_home.webp",
+                "assets/portfolio/i6tix_editor.webp",
+                "assets/portfolio/i6tix_review.webp",
+                "assets/portfolio/i6tix_confirm.webp",
+                "assets/portfolio/i6tix_payment.webp"
             ],
             "demoLink": "https://d2ywhp6fltyv6h.cloudfront.net/storefront.html",
             "Technologies": [
-                "React 16.2 + Redux",
+                "React 16 + Redux",
                 "ESLint + Jest",
                 "AWS + CloudFront",
                 "LocalStorage",
@@ -183,9 +296,12 @@
         },
         {
             "Title": "Rehab.com",
-            "Description": "A custom Symphony application that had multiple integrations with HubSpot, VueJS, Angular and more...",
+            "Description": "A sophisticated Symphony web application with multiple API integrations and HubSpot integration. It utilized VueJS and Angular for different sections and included a custom-built VueJS patient portal for added customization.",
             "Images": [
-                "assets/portfolio-visuals/rehab.com.png"
+                "assets/portfolio/rehabcom_home.webp",
+                "assets/portfolio/rehabcom_patient_portal_login.webp",
+                "assets/portfolio/rehabcom_patient_portal_dashboard.webp",
+                "assets/portfolio/rehabcom_connect.webp"
             ],
             "demoLink": "https://www.rehab.com",
             "Technologies": [
@@ -202,7 +318,7 @@
     "OtherProjects.Projects": [
         {
             "Title": "Angular 13 Portfolio",
-            "Description": "A light-weight Angular 13 web that built to power the portfolio for jodriscoll.com",
+            "Description": "A streamlined Angular 13 web application designed to serve as the backbone for jodriscoll.com's portfolio web app.",
             "ghLink": "https://github.com/jodriscoll/angular_portfolio",
             "demoLink": "https://jodriscoll.pages.dev",
             "Technologies": [
@@ -212,8 +328,8 @@
             ]
         },
         {
-            "Title": "Rehab.com Patient Portal",
-            "Description": "VueJS application that integrated into a Symphony web app, utilizing data exchanges between a MySQL database.",
+            "Title": "Patient Portal",
+            "Description": "A VueJS application seamlessly integrated into a Symphony web application, facilitating smooth data exchanges with a MySQL database.",
             "ghLink": "https://github.com/jodriscoll/vue_patient_portal",
             "demoLink": "https://www.rehab.com/login",
             "Technologies": [
@@ -226,7 +342,7 @@
         },
         {
             "Title": "Energy Rate Calculator",
-            "Description": "A custom Rate Calculator built for a WordPress environment, that allowed users to enter their home usage data to generate rate estimates for NBU.",
+            "Description": "A tailor-made Rate Calculator developed specifically for a WordPress environment, empowering users to input their home usage data and generate accurate rate estimates.",
             "ghLink": "https://github.com/jodriscoll/wp_nbu_rate_calculator",
             "demoLink": "https://www.nbutexas.com/bill-calculator/",
             "Technologies": [

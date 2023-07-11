@@ -1,6 +1,6 @@
 <section class="projects section">
     <div class="container" id="projects">
-        <div class="section-box">
+        <div class="inner">
             <div data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="section-title">
                     <span class="n-section-title">03.</span> {{ "FeatureProjects.Title" | translate }}
@@ -10,8 +10,6 @@
                  class="d-flex project__container"
                  data-aos="fade-up"
                  data-aos-duration="1000">
-
-                <!-- Right to left -->
                 <owl-carousel-o *ngIf='i % 2 == 0'
                                 [options]='customOptions'
                                 class="owl-carousel-o">
@@ -40,8 +38,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Left to right -->
                 <div [class.project__info-right]='i % 2 == 0'
                      [class.project__info-left]='i % 2 != 0'
                      class="h-100">
@@ -65,8 +61,8 @@
                             [class.justify-content-start]='i % 2 != 0'
                             class="project__skills">
                             <li *ngFor="let technology of project.Technologies; let li = index"
-                                [class.ml-3]="li > 0 && i % 2 == 0"
-                                [class.mr-3]="li > 0 && i % 2 != 0">
+                                [class.ml-3]="li >= 0 && i % 2 == 0"
+                                [class.mr-3]="li >= 0 && i % 2 != 0">
                               <span class="underline technology">{{ technology }}</span>
                             </li>
                         </ul>

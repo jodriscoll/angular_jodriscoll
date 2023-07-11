@@ -1,6 +1,8 @@
 @import "./../../../../variables.scss";
 
 .more-projects {
+    min-height: 100vh;
+
     .project-col {
         padding: 10px;
         height: 400px;
@@ -35,7 +37,7 @@
             }
 
             .other-project-title {
-                color: $globalTertiary;
+                @include gradient-text($ltr: true);
                 font-size: 22px;
                 font-weight: $font-weight-normal;
                 margin: 0 0 10px;
