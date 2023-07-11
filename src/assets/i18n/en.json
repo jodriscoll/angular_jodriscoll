@@ -319,10 +319,13 @@
         {
             "Title": "Angular 13 Portfolio",
             "Description": "A streamlined Angular 13 web application designed to serve as the backbone for jodriscoll.com's portfolio web app.",
-            "ghLink": "https://github.com/jodriscoll/angular_portfolio",
+            "ghLink": "https://github.com/jodriscoll/angular_jodriscoll",
             "demoLink": "https://jodriscoll.pages.dev",
             "Technologies": [
                 "Angular 13",
+                "TypeScript",
+                "SCSS",
+                "JavaScript ES6+",
                 "AOS + CSS Animations",
                 "CloudFlare Pages"
             ]
