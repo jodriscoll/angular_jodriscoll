@@ -18,8 +18,7 @@
             display: block;
 
             li {
-                border-left: 2px solid $lightestNavy;
-                border-left-color: rgb(48, 60, 85);
+                border-left: 2px solid transparent;
                 font-size: 16px;
             }
         }
@@ -38,22 +37,25 @@
             text-align: left;
             text-decoration: none;
             text-decoration-skip-ink: auto;
+            text-shadow: 1px 1px 1px $solidWhite;
             transition: all .25s cubic-bezier(.645, .045, .355, 1);
             white-space: nowrap;
             width: 100%;
 
             &:hover {
-                background-color: lighten($lightNavy, 10%);
+                background-color: lighten($globalTertiary, 25%);
                 color: $offWhite;
                 border-color: transparent;
                 border-radius: 0;
+                text-shadow: 1px 1px 1px lighten($globalTertiary, 10%);
             }
 
             &.active {
-                background-color: $lightNavy;
+                background-color: $globalTertiary;
                 color: $offWhite;
                 border-color: transparent;
                 border-radius: 0;
+                text-shadow: 1px 1px 1px darken($globalTertiary, 10%);
             }
         }
     }
@@ -115,6 +117,17 @@
 }
 @media (min-width: 768px) {
     .jobs {
+        .jobs-tabs {
+            ul {
+                li {
+                    border-bottom-right-radius: 20px;
+                    border-top-right-radius: 20px;
+                    border-left-color: $globalTertiary;
+                    overflow: hidden;
+                }
+            }
+        }
+
         .section-box {
             min-height: 720px;
         }
