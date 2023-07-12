@@ -14,7 +14,9 @@
                 <ul ngbNav #nav="ngbNav" [(activeId)]="active"
                     orientation="vertical"
                     class="nav-tabs jobs-tabs">
-                    <li *ngFor='let job of "Experience.Jobs" | translate; let i = index' [title]="job.Tab" [ngbNavItem]="i">
+                    <li *ngFor='let job of "Experience.Jobs" | translate; let i = index'
+                        [title]="job.Tab"
+                        [ngbNavItem]="i">
                         <a ngbNavLink>{{ job.Tab }}</a>
                         <ng-template ngbNavContent>
                             <h4 class="job-title">
@@ -22,7 +24,7 @@
                             </h4>
                             <div class="job-additional">
                                 <span class="job-additional-info">{{ job.Tab }}</span>
-                                <span class="job-additional-info" *ngIf="job.Employment !== null"> – {{ job.Employment }}</span>
+                                <span class="job-additional-info" *ngIf="job.Employment && job.Employment !== ''"> – {{ job.Employment }}</span>
                                 <span class="job-additional-info" *ngIf="job.Location !== null"> – {{ job.Location }}</span>
                             </div>
                             <h5 class="job-time">{{ job.Date }}</h5>

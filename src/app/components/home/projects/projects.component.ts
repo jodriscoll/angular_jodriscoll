@@ -14,7 +14,7 @@ export class ProjectsComponent implements OnInit {
     mouseDrag: true,
     touchDrag: true,
     pullDrag: false,
-    navSpeed: 700,
+    navSpeed: 1500,
     items: 1,
     autoplay: true,
     autoplayTimeout: 3000

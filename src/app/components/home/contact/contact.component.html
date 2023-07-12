@@ -16,12 +16,12 @@
                data-aos-duration="1000">
                 {{ "Contact.Content" | translate }}
             </p>
-            <div class="mt-5">
+            <div class="mt-5"
+                 data-aos="fade-up"
+                 data-aos-duration="1400">
                 <a href="mailto:joey@jodriscoll.com"
                    class="button"
                    target="_blank"
-                   data-aos="fade-up"
-                   data-aos-duration="1400"
                    (click)='analyticsService.sendAnalyticEvent("click_send_mail", "contact", "email")'>
                     {{ "Contact.Btn" | translate }}
                 </a>

@@ -44,12 +44,12 @@
                     <div [class.pl-5]='i % 2 == 0'
                          [class.pr-5]='i % 2 != 0'
                          class="project__box">
-                        <h4 [class.text-right]='i % 2 == 0'
+                        <h4 [class.text-md-start]='i % 2 == 0'
                             [class.text-left]='i % 2 != 0'
                             class="feature-project">
                             {{ "FeatureProjects.Label" | translate }}
                         </h4>
-                        <h5 [class.text-right]='i % 2 == 0'
+                        <h5 [class.text-md-start]='i % 2 == 0'
                             [class.text-left]='i % 2 != 0'
                             class="project__name">
                             {{ project.Title }}
@@ -57,16 +57,17 @@
                         <div class="project__description">
                             <p [innerHTML]='project.Description'></p>
                         </div>
-                        <ul [class.justify-content-end]='i % 2 == 0'
-                            [class.justify-content-start]='i % 2 != 0'
+                        <ul [class.justify-content-start]='i'
+                            [class.justify-content-md-end]='i % 2 == 0'
                             class="project__skills">
                             <li *ngFor="let technology of project.Technologies; let li = index"
-                                [class.ml-3]="li >= 0 && i % 2 == 0"
-                                [class.mr-3]="li >= 0 && i % 2 != 0">
+                                [class.ml-md-3]="li >= 0 && i % 2 == 0"
+                                [class.mr-md-0]="li >= 0 && i % 2 == 0"
+                                [class.mr-3]="li >= 0">
                               <span class="underline technology">{{ technology }}</span>
                             </li>
                         </ul>
-                        <div [class.text-right]='i % 2 == 0'
+                        <div [class.text-right]='i % 2 == 0 && this.mobile'
                              [class.text-left]='i % 2 != 0'
                              class="project__links">
                             <a *ngIf='project["ghLink"]'

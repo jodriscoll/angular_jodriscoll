@@ -1,8 +1,7 @@
 @import "./../../../../variables.scss";
 
 .contact {
-    background: $solidWhite;
-    min-height: 100vh;
+    @include variant-background($light: true);
     text-align: center;
     width: 100%;
 

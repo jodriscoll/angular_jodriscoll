@@ -73,3 +73,13 @@ $max-breakpoint: 1920;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@mixin variant-background($light: false, $dark: false) {
+    min-height: 100vh;
+
+    @if $dark {
+        background: #e6f1ff linear-gradient(108deg, #e6f1ff -30%, lighten(#e6f1ff, 40%) 110%);
+        box-shadow: inset 0 0 30px 0 rgba($solidBlack, .1);
+    }
+    @if $light  { background: #ffffff linear-gradient(108deg, #ffffff -30%, lighten($lightestSlate, 40%) 110%); }
+}

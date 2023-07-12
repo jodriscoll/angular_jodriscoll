@@ -1,6 +1,7 @@
 @import "./../../../../variables.scss";
 
 .jobs {
+    @include variant-background($dark: true);
     align-items: center;
     display: flex;
     justify-content: flex-start;
@@ -18,7 +19,9 @@
             display: block;
 
             li {
+                border-radius: 20px;
                 margin-bottom: 5px;
+                overflow: hidden;
             }
         }
 
@@ -28,7 +31,7 @@
             color: $slate;
             cursor: pointer;
             display: flex;
-            font-size: 16px;
+            font-size: 18px;
             height: 42px;
             line-height: 1;
             padding: 4px 20px 0;
@@ -120,15 +123,6 @@
 }
 @media (min-width: 768px) {
     .jobs {
-        .jobs-tabs {
-            ul {
-                li {
-                    border-radius: 20px;
-                    overflow: hidden;
-                }
-            }
-        }
-
         .section-box {
             min-height: 720px;
         }
