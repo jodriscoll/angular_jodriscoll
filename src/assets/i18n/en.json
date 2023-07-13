@@ -314,6 +314,7 @@
             "Technologies": [
                 "Angular 13",
                 "TypeScript",
+                "Karma",
                 "SCSS",
                 "JavaScript ES6+",
                 "AOS + CSS Animations",
@@ -341,7 +342,7 @@
             "Technologies": [
                 "PHP + WordPress + ACF",
                 "JavaScript ES5+",
-                "SCSS, "
+                "SCSS"
             ]
         }
     ],
