@@ -225,7 +225,7 @@
                 "AOS + CSS Animations",
                 "Bootstrap 5.x",
                 "PHP + MySQL",
-                "WordPress VIP, "
+                "WordPress VIP"
             ]
         },
         {
@@ -262,7 +262,7 @@
                 "AWS",
                 "GitLab",
                 "Bootstrap 5.x",
-                "ES6"
+                "JavaScript ES6+"
             ]
         },
         {
@@ -281,7 +281,7 @@
                 "ESLint + Jest",
                 "AWS + CloudFront",
                 "LocalStorage",
-                "SCSS + ES6"
+                "SCSS + JavaScript ES6+"
             ]
         },
         {
@@ -340,7 +340,7 @@
             "demoLink": "https://www.nbutexas.com/bill-calculator/",
             "Technologies": [
                 "PHP + WordPress + ACF",
-                "JavaScript",
+                "JavaScript ES5+",
                 "SCSS, "
             ]
         }
