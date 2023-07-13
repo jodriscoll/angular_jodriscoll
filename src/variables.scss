@@ -4,6 +4,7 @@
 $blue:                  #21486b;
 $blueOpacity:           rgba($blue, .07);
 $purple:                #4a00d7;
+$pink:                  #ab00ec;
 $navy:                  #0a192f;
 $lightNavy:             #112240;
 $lightestNavy:          #303c55;
@@ -66,8 +67,8 @@ $max-breakpoint: 1920;
 @mixin gradient-text($ltr: false, $rtl: false) {
     color: $lightestSlate;
 
-    @if $ltr { background: linear-gradient(120deg, #0087f2, #000772, #ab00ec, #4a00d7); }
-    @if $rtl { background: linear-gradient(-120deg, #0087f2, #000772, #ab00ec, #4a00d7); }
+    @if $ltr { background: linear-gradient(120deg, #0087f2, #000772, $pink, $purple); }
+    @if $rtl { background: linear-gradient(-120deg, #0087f2, #000772, $pink, $purple); }
 
     background-clip: text;
     -webkit-background-clip: text;

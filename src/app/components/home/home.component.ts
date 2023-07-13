@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-home',
@@ -8,12 +9,10 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 
 export class HomeComponent implements OnInit {
-    private mobile: boolean;
-
     constructor(
         private analyticsService: AnalyticsService,
-    ) {
-    }
+        private translate: TranslateService
+    ) { }
 
     ngOnInit(): void {
         this.analyticsService.sendAnalyticPageView('/', 'Visited Home');

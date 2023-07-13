@@ -1,16 +1,18 @@
 <footer>
-    <div [@animateFooter]>
+    <div [@animateFooter]="">
         <ul class="footer__left-bar">
             <li>
-                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")'
-                   href="https://github.com/jodriscoll"
-                   target="_blank">
+                <a target="_blank"
+                   title="Visit my personal GitHub profile"
+                   [href]='("AboutMe.Github" | translate)'
+                   (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")'>
                     <i class="fab fa-github"></i>
                 </a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/jtodriscoll"
-                   target="_blank"
+                <a target="_blank"
+                   title="View my LinkedIn profile"
+                   [href]='("AboutMe.Linkedin" | translate)'
                    (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")'>
                     <i class="fab fa-linkedin-in"></i>
                 </a>
@@ -18,15 +20,18 @@
         </ul>
     </div>
 
-    <div class="footer__built-with text-center">
-        <a href="https://github.com/jodriscoll"
+    <div class="footer__built-with text-center"
+         data-aos="fade-in"
+         data-aos-delay="500"
+         data-aos-duration="2500">
+        <a href="https://v13.angular.io/docs"
            target="_blank"
            rel="nofollow noopener noreferrer"
            (click)='analyticsService.sendAnalyticEvent("click_github_portfolio", "footer", "click")'>
             Built with <img src="assets/images/angular-line.svg"
                             class="angular-logo"
                             width="18"
-                            alt="angular" />
+                            alt="Angular Logo" />
         </a>
     </div>
 </footer>

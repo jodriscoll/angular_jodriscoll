@@ -1,15 +1,15 @@
 import { TestBed } from '@angular/core/testing';
-import { IpserviceService } from './ipservice.service';
+import { IpServiceService } from './ipservice.service';
 
-describe('IpserviceService', () => {
-  let service: IpserviceService;
+describe('IpServiceService', () => {
+    let service: IpServiceService;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(IpserviceService);
-  });
+    beforeEach(() => {
+        TestBed.configureTestingModule({});
+        service = TestBed.inject(IpServiceService);
+    });
 
-  it('should be created', () => {
-    expect(service).toBeTruthy();
-  });
+    it('should be created', () => {
+        expect(service).toBeTruthy();
+    });
 });

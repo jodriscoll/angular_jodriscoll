@@ -1,5 +1,5 @@
-<section class="jobs section">
-    <div class="container" id="jobs">
+<section class="jobs section" id="jobs">
+    <div class="container">
         <div class="inner">
             <div class="about-title mb-5"
                  data-aos="fade-up"
@@ -8,20 +8,18 @@
                     <span class="code-font n-section-title">02.</span> {{ "Experience.Title" | translate }}
                 </h3>
             </div>
-            <div class="jobs-tabs"
-                 data-aos="fade-up"
-                 data-aos-duration="1000">
+            <div class="jobs-tabs">
                 <ul ngbNav #nav="ngbNav" [(activeId)]="active"
                     orientation="vertical"
                     class="nav-tabs jobs-tabs">
                     <li *ngFor='let job of "Experience.Jobs" | translate; let i = index'
-                        [title]="job.Tab"
                         [ngbNavItem]="i">
-                        <a ngbNavLink>{{ job.Tab }}</a>
+                        <a ngbNavLink
+                           data-aos="fade-right"
+                           data-aos-duration="1000"
+                           [title]="job.Tab">{{ job.Tab }}</a>
                         <ng-template ngbNavContent>
-                            <h4 class="job-title">
-                                {{ job.Title }}
-                            </h4>
+                            <h4 class="job-title">{{ job.Title }}</h4>
                             <div class="job-additional">
                                 <span class="job-additional-info">{{ job.Tab }}</span>
                                 <span class="job-additional-info" *ngIf="job.Employment && job.Employment !== ''"> – {{ job.Employment }}</span>

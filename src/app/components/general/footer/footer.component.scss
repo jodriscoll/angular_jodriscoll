@@ -16,10 +16,18 @@ footer {
 
         i {
             color: $offWhite;
+            transition: all ease-in-out .25s;
         }
 
         a {
             display: block;
+
+            &:hover {
+                i {
+                    color: lighten($pink, 30%);
+                    transform: scale(1.1);
+                }
+            }
         }
     }
 

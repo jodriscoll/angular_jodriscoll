@@ -1,15 +1,17 @@
 {
-    "Header.item1": "About",
-    "Header.item2": "Experience",
-    "Header.item3": "Projects",
-    "Header.item4": "Contact",
-    "Header.resumeBtn": "Resume",
-    "Header.resumeFileName": "2023_RESUME.pdf",
+    "Header.Item1": "About",
+    "Header.Item2": "Experience",
+    "Header.Item3": "Projects",
+    "Header.Item4": "Contact",
+    "Header.ResumeBtn": "Resume",
+    "Header.ResumeFilename": "2023_RESUME.pdf",
     "Banner.Pretitle": "Let me introduce myself ...",
     "Banner.FullName": "Joseph O'Driscoll",
     "Banner.JobTitle": "A MEAN Front-End Developer",
     "Banner.Description": "With over <span class='underline'>10+ years</span> of web development and design expertise, I've adeptly employed <span class='underline'>open-source</span> technologies to construct dynamic web applications, cutting-edge mobile experiences, and immersive digital encounters. My diligent efforts have consistently facilitated <span class='underline'>business expansion</span> and <span class='underline'>enhanced user experiences</span>",
     "Banner.ActionBtn": "Let's Connect",
+    "AboutMe.Github": "https://github.com/jodriscoll",
+    "AboutMe.Linkedin": "https://www.linkedin.com/in/jtodriscoll",
     "AboutMe.Title": "Introduction",
     "AboutMe.Paragraphs": [
         "Over the course of my extensive career spanning <span class='underline'>more than a decade</span> as a Front-End Web Developer, I've consistently showcased unwavering dedication to <span class='underline'>continuous improvement</span> and <span class='underline'>personal development</span>.",
@@ -206,7 +208,7 @@
         }
     ],
     "FeatureProjects.Title": "Projects",
-    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Label": "Featured",
     "FeatureProjects.Projects": [
         {
             "Title": "Sequoia Capital",
@@ -223,7 +225,7 @@
                 "AOS + CSS Animations",
                 "Bootstrap 5.x",
                 "PHP + MySQL",
-                "WordPress VIP"
+                "WordPress VIP, "
             ]
         },
         {
@@ -307,7 +309,7 @@
         {
             "Title": "Angular 13 Portfolio",
             "Description": "A streamlined Angular 13 web application designed to serve as the backbone for jodriscoll.com's portfolio web app.",
-            "ghLink": "https://github.com/jodriscoll/angular_jodriscoll",
+            "githubLink": "https://github.com/jodriscoll/angular_jodriscoll",
             "demoLink": "https://jodriscoll.pages.dev",
             "Technologies": [
                 "Angular 13",
@@ -321,7 +323,7 @@
         {
             "Title": "Patient Portal",
             "Description": "A VueJS application seamlessly integrated into a Symphony web application, facilitating smooth data exchanges with a MySQL database.",
-            "ghLink": "https://github.com/jodriscoll/vue_patient_portal",
+            "githubLink": "https://github.com/jodriscoll/vue_patient_portal",
             "demoLink": "https://www.rehab.com/login",
             "Technologies": [
                 "VueJS + Symphony",
@@ -334,17 +336,18 @@
         {
             "Title": "Energy Rate Calculator",
             "Description": "A tailor-made Rate Calculator developed specifically for a WordPress environment, empowering users to input their home usage data and generate accurate rate estimates.",
-            "ghLink": "https://github.com/jodriscoll/wp_nbu_rate_calculator",
+            "githubLink": "https://github.com/jodriscoll/wp_nbu_rate_calculator",
             "demoLink": "https://www.nbutexas.com/bill-calculator/",
             "Technologies": [
-                "PHP/WordPress/ACF",
+                "PHP + WordPress + ACF",
                 "JavaScript",
-                "SCSS"
+                "SCSS, "
             ]
         }
     ],
     "Contact.Pretitle": "Contact",
     "Contact.Title": "Let's work together",
     "Contact.Content": "I'm ready to hear your story.",
+    "Contact.Email": "mailto:joey@jodriscoll.com",
     "Contact.Btn": "Start a conversation"
 }

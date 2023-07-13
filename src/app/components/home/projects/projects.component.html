@@ -1,5 +1,5 @@
-<section class="projects section">
-    <div class="container" id="projects">
+<section class="projects section" id="projects">
+    <div class="container">
         <div class="inner">
             <div data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="section-title">
@@ -41,8 +41,8 @@
                 <div [class.project__info-right]='i % 2 == 0'
                      [class.project__info-left]='i % 2 != 0'
                      class="h-100">
-                    <div [class.pl-5]='i % 2 == 0'
-                         [class.pr-5]='i % 2 != 0'
+                    <div [class.pl-md-5]='i % 2 == 0'
+                         [class.pr-md-5]='i % 2 != 0'
                          class="project__box">
                         <h4 [class.text-md-start]='i % 2 == 0'
                             [class.text-left]='i % 2 != 0'
@@ -60,18 +60,20 @@
                         <ul [class.justify-content-start]='i'
                             [class.justify-content-md-end]='i % 2 == 0'
                             class="project__skills">
-                            <li *ngFor="let technology of project.Technologies; let li = index"
+                            <li *ngFor="let technology of project.Technologies; let li = index; let last = last"
                                 [class.ml-md-3]="li >= 0 && i % 2 == 0"
                                 [class.mr-md-0]="li >= 0 && i % 2 == 0"
                                 [class.mr-3]="li >= 0">
-                              <span class="underline technology">{{ technology }}</span>
+                              <span class="underline technology">
+                                  {{ technology }}<span *ngIf="!last">&#44;</span>
+                              </span>
                             </li>
                         </ul>
-                        <div [class.text-right]='i % 2 == 0 && this.mobile'
-                             [class.text-left]='i % 2 != 0'
+                        <div [class.text-left]='i % 2 != 0'
+                             [class.text-md-right]='i % 2 == 0'
                              class="project__links">
-                            <a *ngIf='project["ghLink"]'
-                               [href]='project["ghLink"]'
+                            <a *ngIf='project["githubLink"]'
+                               [href]='project["githubLink"]'
                                title=""
                                target="_blank">
                                 <i class="ml-3 fab fa-github"></i>

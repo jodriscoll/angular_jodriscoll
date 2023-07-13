@@ -3,18 +3,18 @@ import { Router, NavigationEnd } from '@angular/router';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
-  selector: 'app-more-projects',
-  templateUrl: './more-projects.component.html',
-  styleUrls: ['./more-projects.component.scss']
+    selector: 'app-more-projects',
+    templateUrl: './more-projects.component.html',
+    styleUrls: ['./more-projects.component.scss']
 })
 
 export class MoreProjectsComponent implements OnInit {
-  constructor(
-    private router: Router,
-    public analyticsService: AnalyticsService
+    constructor(
+        private router: Router,
+        public analyticsService: AnalyticsService
     ) { }
 
-    ngOnInit() {
+    ngOnInit(): any {
         this.router.events.subscribe((evt) => {
             if (!(evt instanceof NavigationEnd)) {
                 return;
@@ -23,11 +23,11 @@ export class MoreProjectsComponent implements OnInit {
         });
     }
 
-    redirect(route: string, event) {
-      const id = event.target.id;
-      if ( id === 'demoLink' || id === 'ghLink' ) {
-        return;
-      }
-      window.open(route, '_blank');
+    redirect(route: string, event): any {
+        const id = event.target.id;
+        if ( id === 'demoLink' || id === 'githubLink' ) {
+            return;
+        }
+        window.open(route, '_blank');
     }
 }
