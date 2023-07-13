@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import * as AOS from 'aos';
 import { Title, Meta } from '@angular/platform-browser';
 import { LanguageService } from 'src/app/services/language/language.service';
+import * as AOS from 'aos';
 
 @Component({
     selector: 'app-root',
