@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 import { TranslateService } from '@ngx-translate/core';
+import LocomotiveScroll from 'locomotive-scroll';
 
 @Component({
     selector: 'app-home',
@@ -9,6 +10,8 @@ import { TranslateService } from '@ngx-translate/core';
 })
 
 export class HomeComponent implements OnInit {
+    scroll;
+
     constructor(
         private analyticsService: AnalyticsService,
         private translate: TranslateService
@@ -16,5 +19,14 @@ export class HomeComponent implements OnInit {
 
     ngOnInit(): void {
         this.analyticsService.sendAnalyticPageView('/', 'Visited Home');
+
+        this.scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: false,
+            getDirection: true
+        });
+        setTimeout(() => {
+            console.log(this.scroll);
+        }, 5000);
     }
 }
