@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
 
         this.scroll = new LocomotiveScroll({
             el: document.querySelector('[data-scroll-container]'),
-            smooth: false,
+            smooth: true,
             getDirection: true
         });
         setTimeout(() => {
