@@ -25,8 +25,10 @@ export class HomeComponent implements OnInit {
             smooth: true,
             getDirection: true
         });
+
+        // Debugging.
         setTimeout(() => {
             console.log(this.scroll);
-        }, 5000);
+        }, 500);
     }
 }
